@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="stylesheet" href="style.css">
+<title>Site</title>
+</head>
+<body >
+<div class="sidenav">
+ <a href="Site.html">Main <3</a>
+  <a href="resume.html">Resume</a>
+  <a href="schedule.html">Schedule</a>
+</div>
+<h1>Site</h1>
+	<ul>
+		<li>
+			<h4>My name is Amir</h4>
+		</li>
+		<li>
+			<h4>I am studying at <a href="http://iitu.kz">IITU</a></h4>
+		</li>
+		<li>
+			<h4>My hobby is Hazking :)</h4>
+		</li>
+	</ul>
+	
+	
+	
+	<img src='my.jpg' height="200" width="280" class="imgur">
+		<h1>Video</h1>
+	<button onclick="playPause()">Play/Pause</button> 
+	<button onclick="makeBig()">Big</button>
+	<button onclick="makeSmall()">MakeSmall</button>
+</br>
+
+	<video id="video1" volume=0.2 width="440" height="320" autoplay>
+		 
+		<source src="Videos.mp4" type="video/mp4" >
+			your browser not working properly :(
+	</video>
+	  <script>
+   function sizeVideo() {
+    size = document.getElementById("video1").value;
+    img = document.getElementById("pic");
+    img.width = 60 + 20*size;
+   }
+  </script>
+	<script> 
+var myVideo = document.getElementById("video1"); 
+myVideo.volume=0.4
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+		
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+<div class="wrapper">
+  <ul>
+    <a href="http://vk.com/akimbaev_777"><li><i>Vk</i></li></a>
+    <a href="http://google.com"><li><i>Google</i></li></a>
+    <a href="http://Youtube.com"><li><i>Youtube</i></li></a>
+  </ul>
+</div>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,85 @@
+body{
+background: #FEEFDA url(black-flecks.png);
+
+}
+h1{
+	color:#FEEFDA
+
+}
+h3{
+	color:#EE82EE
+}
+h4{
+	color:#EE82EE
+}
+a{
+	color:#FFFFFF
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+.sidenav a{
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+}
+.table1{
+	color:#FF00FF
+
+}
+.table1 h2{
+	color:#FEEFDA
+}
+.wrapper {
+  position: right ;
+  transform: translate(300%, 300%);
+  width: 440px;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+.wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  color: #EE82EE
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  float: left;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover{
+  border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+
+}
+.imgur{
+
+	border-radius: 100px; /* Радиус скругления */
+    border: 3px solid purple; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+
+
+
+
+
+
+
+	
